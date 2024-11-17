@@ -1,0 +1,126 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* generique*/
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+span {
+  color: #f9ca24;
+  font-weight: 400;
+}
+
+/*
+
+*/
+p {
+  margin-bottom: 0.8rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* font-family */
+
+/* vp + header */
+.vp-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 1rem;
+  background-color: goldenrod;
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: white;
+}
+
+.vp-logo {
+  font-size: 1rem;
+  margin-bottom: 0;
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.vp-logo a {
+}
+
+.vp-logo i {
+  margin-right: 10px;
+  color: #f9ca24;
+  font-size: 1.5rem;
+}
+
+.header-nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+}
+
+.header-nav ul li {
+  padding-right: 1rem;
+  text-decoration: none;
+}
+
+.header-nav ul li a:hover {
+  color: #f9ca24;
+}
+
+/* vp */
+
+.vp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: auto;
+  background: url(./../images/dancing-evening.jpg) center center/cover;
+  opacity: 0.85;
+  z-index: 1;
+}
+
+.vp-content {
+  max-width: 800px;
+  text-align: center;
+}
+
+.vp-content h1 {
+  font-size: 1.7rem;
+  color: white;
+}
+
+.vp-content p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  color: white;
+}
