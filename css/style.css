@@ -49,6 +49,15 @@ strong {
   font-weight: 400;
 }
 
+em {
+  color: #555;
+}
+
+.bg-dark {
+  background: #333;
+  color: white;
+}
+
 /* font-family */
 
 /* container */
@@ -164,6 +173,7 @@ header a {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  padding-bottom: 2rem;
 }
 
 .offer-elem {
@@ -196,4 +206,143 @@ header a {
   margin: auto;
   background: #333;
   margin: 1rem auto;
+}
+
+/* who */
+
+.who {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.who-content-img {
+  flex: 1;
+}
+
+.who-content-text {
+  flex: 1;
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  padding: 6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.who-content-text p {
+  font-size: 0.8rem;
+}
+
+.who-content-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* testimonials*/
+
+.testimonials {
+  padding: 5em 1rem 5rem 1rem;
+}
+
+.testimonials-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials-elem {
+  flex: 1;
+  background: white;
+  border-radius: 15px;
+  padding: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.testimonials-elem-text {
+  padding: 0 1rem;
+}
+
+.testimonials-elem-profil {
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonials-elem-profil p {
+  font-weight: 700;
+}
+
+.testimonials-elem-profil img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+
+/* contact */
+
+.contact {
+  padding: 5rem 1rem 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-form input {
+  background: #333;
+  border: 0;
+  border-bottom: 1px solid #555;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #ddd;
+  outline: 0;
+}
+
+.contact-form input:-webkit-autofill {
+  background: #333;
+  border: 0;
+  border-bottom: 1px solid #555;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #ddd;
+  outline: 0;
+}
+
+.contact-form button {
+  display: block;
+  margin: 3rem auto;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 30px;
+  background: #f1c40f;
+  color: white;
+  font-weight: 200;
+  transition: 0.5s;
+}
+
+.contact-form button:hover {
+  background: #cfe105;
+}
+
+/* footer */
+
+footer {
+  background: #444;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 1rem 3rem 1rem;
+}
+
+footer p {
+  color: white;
+  margin-bottom: 0;
 }
