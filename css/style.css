@@ -105,9 +105,6 @@ header a {
   align-items: center;
 }
 
-.vp-logo a {
-}
-
 .vp-logo i {
   margin-right: 10px;
   color: #f9ca24;
@@ -217,6 +214,7 @@ header a {
 
 .who-content-img {
   flex: 1;
+  background: url("../images/DancingTeam.jpg") center center/cover;
 }
 
 .who-content-text {
@@ -231,11 +229,6 @@ header a {
 
 .who-content-text p {
   font-size: 0.8rem;
-}
-
-.who-content-img img {
-  width: 100%;
-  height: 100%;
 }
 
 /* testimonials*/
